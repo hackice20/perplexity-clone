@@ -2,6 +2,9 @@
 
 A simple yet powerful AI-powered search agent inspired by [Perplexity](https://perplexity.ai). This project leverages cutting-edge AI models and a robust search engine to provide intelligent, context-aware search results.  
 
+![Project Workflow](https://github.com/hackice20/perplexity-clone/raw/main/Screenshot%202025-01-14%20093931.png)
+
+
 ## **Overview**  
 
 This project integrates:  
@@ -10,7 +13,7 @@ This project integrates:
 
 With a clean interface and a powerful backend, the AI Search Agent combines the best of AI and traditional search engines.  
 
-![Project Screenshot](#) 
+![Project Screenshot](https://github.com/hackice20/perplexity-clone/raw/main/Screenshot%202025-01-14%20090700.png)
 
 ---  
 
