@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nunito-font {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Nunito", serif;
+  background-color: black;
+}
+
+/* Custom scrollbar for Webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#search-response ol {
+  @apply list-decimal pl-4 my-2;
+}
+#search-response ul {
+  @apply list-disc pl-4 my-2;
+}
+#search-response p {
+  @apply whitespace-pre-wrap mt-1;
+}
+#search-response a {
+  @apply text-purple-400 underline;
+}
+#search-response .citation {
+  @apply text-purple-400 bg-neutral-700/30 text-xs rounded p-1 mx-1;
+}
+#search-response h1,
+#search-response h2,
+#search-response h3,
+#search-response h4,
+#search-response h5,
+#search-response h6 {
+  @apply font-bold;
+}
+#search-response .paragraph {
+  @apply whitespace-pre-wrap mt-1 mb-4;
+}
