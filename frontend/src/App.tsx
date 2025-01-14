@@ -6,7 +6,7 @@ import SearchResults from "./components/SearchResults";
 import { Source } from "./types";
 
 // we only have one endpoint for now so let's keep it simple
-const SEARCH_ENDPOINT = "http://localhost:8080/search";
+const SEARCH_ENDPOINT = "https://perplexity-clone-6te8.onrender.com/search";
 
 function App() {
   const [sources, setSources] = useState<Source[]>([]);
