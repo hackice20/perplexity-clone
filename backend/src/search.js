@@ -27,7 +27,7 @@ const SEARCH_API = "https://www.googleapis.com/customsearch/v1";
  */
 export async function search(query) {
   query = await getAiSearchQuery(query);
-  console.log(`birajlog google search query: '${query}'`);
+  console.log(`log google search query: '${query}'`);
 
   const url = new URL(SEARCH_API);
   url.searchParams.append("key", env.GOOGLE_API_KEY);
