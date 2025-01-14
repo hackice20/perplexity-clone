@@ -43,7 +43,7 @@ ${result.text || result.snippet}`
     )
     .join("\n\n");
 
-  console.log("birajlog context:", context);
+  console.log("context:", context);
 
   const answer = await getAiAnswer(userQuery, context);
   if (typeof answer === "string") {
