@@ -1,5 +1,3 @@
-import React from 'react';
-
 const FreeTierMessage = () => {
   return (
     <div className="flex items-center justify-center p-4">

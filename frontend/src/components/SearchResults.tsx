@@ -4,7 +4,6 @@ import { Globe, Sparkles } from "lucide-react";
 
 import { Source } from "@/types";
 import Tooltip from "./ui/Tooltip";
-import LoadingIndicator from "./ui/LoadingIndicator";
 
 interface SearchResultsProps {
   sources: Source[];

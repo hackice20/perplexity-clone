@@ -1,5 +1,3 @@
-import React from 'react';
-
 const LoadingIndicator = () => {
   return (
     <div className="flex justify-center items-center p-4">

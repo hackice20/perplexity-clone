@@ -54,7 +54,6 @@ function App() {
             sources={sources}
             content={content}
             isStreaming={isStreaming}
-            isLoading={isLoading}
           />
         </div>
       </div>
